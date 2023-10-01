@@ -1,0 +1,57 @@
+table {
+    table-layout: fixed;
+    column-width: 200px;
+    margin-left: auto; 
+    margin-right: auto;
+    background-color: black;
+    border: 20px solid;
+    width: 1020px;
+    border-color: white;
+}
+
+th, td {
+    padding: 15px;
+    color: white;
+    border: 0px solid;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.nopadding{
+    padding: 0px;
+    border: 0px solid;
+}
+
+.toptext{
+    vertical-align: top;
+}
+
+body {
+ background-image: url('images/galaxybackground.png');
+}
+
+a {
+    color: #d888fc;
+}
+
+h1{
+    font-weight: normal;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.neonText {
+  color: #fff;
+  text-shadow:
+/*
+    0 0 7px #fff,
+    0 0 10px #fff,
+*/
+    0 0 21px #fff,
+    0 0 42px #5C27A3,
+    0 0 82px #5C27A3,
+    0 0 92px #5C27A3,
+    0 0 102px #5C27A3,
+    0 0 151px #5C27A3;
+}
